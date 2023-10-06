@@ -1,0 +1,96 @@
+{
+  "seller": [
+    {
+      "name": "ismail",
+      "email": "ismail@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "password": "1234",
+      "email": "Peter@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "K",
+      "password": "1234",
+      "email": "K@seller.com",
+      "id": 3
+    },
+    {
+      "name": "KT",
+      "password": "KT1234",
+      "email": "KT@seller.com",
+      "id": 4
+    },
+    {
+      "name": "Idealake",
+      "password": "Idealake1234",
+      "email": "Idealake@seller.com",
+      "id": 5
+    },
+    {
+      "name": "Tushar",
+      "password": "Tushar1234",
+      "email": "Tushar_Idealake@seller.com",
+      "id": 6
+    },
+    {
+      "name": "Arshad",
+      "password": "Arshad1234",
+      "email": "Arshad_Idealake@seller.com",
+      "id": 7
+    },
+    {
+      "name": "Faisal",
+      "password": "Faisal1234",
+      "email": "Faisal_Idealake@seller.com",
+      "id": 8
+    },
+    {
+      "name": "Mitesh",
+      "password": "Mitesh1234",
+      "email": "Mitesh_Idealake@seller.com",
+      "id": 9
+    },
+    {
+      "name": "Ashwin",
+      "password": "Ashwin1234",
+      "email": "Ashwin_Idealake@seller.com",
+      "id": 10
+    },
+    {
+      "name": "Shaid",
+      "password": "Shaid1234",
+      "email": "Shaid_Idealake@seller.com",
+      "id": 11
+    },
+    {
+      "name": "Durga",
+      "password": "Durga1234",
+      "email": "Durga_Idealake@seller.com",
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "name": "samsung m 40",
+      "price": "23000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "a samsung product",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fapple-iphone&psig=AOvVaw04EJt52QQrl_tUuIuZgrJG&ust=1696647436470000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOibmKm24IEDFQAAAAAdAAAAABAE",
+      "id": 1
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "An apple product",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fapple-iphone&psig=AOvVaw04EJt52QQrl_tUuIuZgrJG&ust=1696647436470000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOibmKm24IEDFQAAAAAdAAAAABAE",
+      "id": 2
+    }
+  ]
+}
