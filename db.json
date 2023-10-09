@@ -75,8 +75,8 @@
   ],
   "products": [
     {
-      "name": "samsung m 40",
-      "price": "23000",
+      "name": "Samsung m 40",
+      "price": "551",
       "color": "Black",
       "category": "Mobile",
       "description": "a samsung product",
@@ -85,7 +85,7 @@
     },
     {
       "name": "I phone 14",
-      "price": "100000",
+      "price": "100001",
       "color": "Black",
       "category": "Mobile",
       "description": "a good product",
