@@ -100,7 +100,7 @@
       "price": "100001",
       "color": "Black",
       "category": "Mobile",
-      "description": "a good product",
+      "description": "a iphone product",
       "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
       "id": 2
     },
@@ -109,7 +109,7 @@
       "price": "15000",
       "color": "Black",
       "category": "Mobile",
-      "description": "A good product",
+      "description": "A POCO product",
       "image": "https://static.digit.in/default/full-5a0d75e800.jpeg",
       "id": 3
     },
@@ -118,7 +118,7 @@
       "price": "5000",
       "color": "Blue",
       "category": "Shoe",
-      "description": "Good product",
+      "description": "Shoe product",
       "image": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(600,750)",
       "id": 4
     },
@@ -127,9 +127,18 @@
       "price": "100000",
       "color": "Gray",
       "category": "Laptop",
-      "description": "Good Product",
-      "image": "https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Ftiimg.tistatic.com%2Ffp%2F1%2F007%2F428%2F1920-x-1080-hp-gray-laptop-11-3-inches-and-i3-processor--588.jpg&w=384&q=75",
+      "description": "Laptop Product",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
       "id": 5
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "100000",
+      "color": "Gray",
+      "category": "Laptop",
+      "description": "Laptop Product",
+      "image": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/13-3320/media-gallery/peripherals_laptop_latitude_3320_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3337&hei=2417&qlt=100,1&resMode=sharp2&size=3337,2417&chrss=full&imwidth=5000",
+      "id": 6
     }
   ]
 }
