@@ -71,6 +71,18 @@
       "password": "Durga1234",
       "email": "Durga_Idealake@seller.com",
       "id": 12
+    },
+    {
+      "name": "Roshni",
+      "password": "1234",
+      "email": "roshni@test.com",
+      "id": 13
+    },
+    {
+      "name": "Roshni mali",
+      "password": "123",
+      "email": "roshni@test.com",
+      "id": 14
     }
   ],
   "products": [
@@ -80,7 +92,7 @@
       "color": "Black",
       "category": "Mobile",
       "description": "a samsung product",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fapple-iphone&psig=AOvVaw04EJt52QQrl_tUuIuZgrJG&ust=1696647436470000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOibmKm24IEDFQAAAAAdAAAAABAE",
+      "image": "https://5.imimg.com/data5/ZX/BF/BS/SELLER-75987892/samsung-galaxy-m40-500x500.png",
       "id": 1
     },
     {
@@ -89,8 +101,35 @@
       "color": "Black",
       "category": "Mobile",
       "description": "a good product",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fapple-iphone&psig=AOvVaw04EJt52QQrl_tUuIuZgrJG&ust=1696647436470000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOibmKm24IEDFQAAAAAdAAAAABAE",
+      "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
       "id": 2
+    },
+    {
+      "name": "poco m6 pro 5g",
+      "price": "15000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "A good product",
+      "image": "https://static.digit.in/default/full-5a0d75e800.jpeg",
+      "id": 3
+    },
+    {
+      "name": "BRUTON Trendy Sports Shoes",
+      "price": "5000",
+      "color": "Blue",
+      "category": "Shoe",
+      "description": "Good product",
+      "image": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(600,750)",
+      "id": 4
+    },
+    {
+      "name": "HP Laptop",
+      "price": "100000",
+      "color": "Gray",
+      "category": "Laptop",
+      "description": "Good Product",
+      "image": "https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Ftiimg.tistatic.com%2Ffp%2F1%2F007%2F428%2F1920-x-1080-hp-gray-laptop-11-3-inches-and-i3-processor--588.jpg&w=384&q=75",
+      "id": 5
     }
   ]
 }
