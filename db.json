@@ -97,10 +97,10 @@
     },
     {
       "name": "I phone 14",
-      "price": "100001",
+      "price": "100000",
       "color": "Black",
       "category": "Mobile",
-      "description": "a iphone product",
+      "description": "iphone product",
       "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
       "id": 2
     },
@@ -139,6 +139,24 @@
       "description": "Laptop Product",
       "image": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/13-3320/media-gallery/peripherals_laptop_latitude_3320_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3337&hei=2417&qlt=100,1&resMode=sharp2&size=3337,2417&chrss=full&imwidth=5000",
       "id": 6
+    },
+    {
+      "name": "Realme narzo 60x 5g",
+      "price": "15000",
+      "color": "Dark violet",
+      "category": "Mobile",
+      "description": "realme ui product",
+      "image": "https://m.media-amazon.com/images/I/818UhQ1kpdL._SX679_.jpg",
+      "id": 7
+    },
+    {
+      "name": "G733",
+      "price": "10000",
+      "color": "Black",
+      "category": "Headset",
+      "description": "a gaming headset, Embrace total wireless with 2.4 GHZ LIGHTSPEED wireless, featuring up to 20 m of range",
+      "image": "https://m.media-amazon.com/images/I/71xNjrzG69L._AC_UF1000,1000_QL80_.jpg",
+      "id": 8
     }
   ]
 }
