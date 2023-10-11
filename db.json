@@ -157,6 +157,15 @@
       "description": "a gaming headset, Embrace total wireless with 2.4 GHZ LIGHTSPEED wireless, featuring up to 20 m of range",
       "image": "https://m.media-amazon.com/images/I/71xNjrzG69L._AC_UF1000,1000_QL80_.jpg",
       "id": 8
+    },
+    {
+      "name": "beatXP Marv Neo 1.85",
+      "price": "4000",
+      "color": "Black",
+      "category": "Smart Watch",
+      "description": "(4.6 cm) Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging",
+      "image": "https://m.media-amazon.com/images/I/51WEXftXxiL._SY679_.jpg",
+      "id": 9
     }
   ]
 }
