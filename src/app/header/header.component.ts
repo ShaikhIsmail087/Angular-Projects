@@ -19,7 +19,7 @@ export class HeaderComponent {
       if (val.url) {
         // console.warn(val.url);
         if (localStorage.getItem('seller') && val.url.includes('seller')) {
-          console.warn("in seller area");
+          // console.warn("in seller area");
           this.menuType = 'seller';
           if (localStorage.getItem('seller')) {
             let sellerStore = localStorage.getItem('seller');
@@ -28,7 +28,7 @@ export class HeaderComponent {
           }
         }
         else {
-          console.warn("outside seller");
+          // console.warn("outside seller");
           this.menuType = 'default';
         }
       }
@@ -42,7 +42,7 @@ export class HeaderComponent {
     if(query){
       const  element= query.target as HTMLInputElement;
       this.product.searchProducts(element.value).subscribe((result)=>{
-        console.warn(result);
+        // console.warn(result);
         if(result.length>5){
         result.length=5;
         }
@@ -52,5 +52,8 @@ export class HeaderComponent {
   }
   hideSearch(){
     this.searchResult=undefined;
+  }
+  submitSearch(val:string){
+    this.route.navigate([`search/${val}`])
   }
 }

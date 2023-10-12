@@ -1,0 +1,20 @@
+.search-item{
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+.search-item img{
+    width: 50%;
+    object-fit: contain;
+}
+
+.search-item h6{
+    color: blueviolet;
+}
+
+.search-item p{
+    margin: 5px;
+}
+
+.search-item span{
+    margin-right: 10px;
+}

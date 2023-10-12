@@ -88,7 +88,7 @@
   "products": [
     {
       "name": "Samsung m 40",
-      "price": "551",
+      "price": "55100",
       "color": "Black",
       "category": "Mobile",
       "description": "a samsung product",
@@ -123,7 +123,7 @@
       "id": 4
     },
     {
-      "name": "HP Laptop",
+      "name": "Apple Laptop",
       "price": "100000",
       "color": "Gray",
       "category": "Laptop",
