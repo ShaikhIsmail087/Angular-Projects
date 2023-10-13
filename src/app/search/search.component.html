@@ -1,24 +1,12 @@
-<div class="search-item">
+<div class="search-item" *ngFor="let item of searchResult">
     <div class="col-sm-3">
-        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" >
+        <img src="{{item.image}}" >
     </div>
     <div class="col-sm-8 details">
-        <h6>Product Name</h6>
-        <p><b>Price:10000</b></p>
-        <p><span>color:Red</span><span>Category Mobile</span></p>
-        <p>A product search UI</p>
-
-    </div>
-</div>
-<div class="search-item">
-    <div class="col-sm-3">
-        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" >
-    </div>
-    <div class="col-sm-8 details">
-        <h6>Product Name</h6>
-        <p><b>Price:10000</b></p>
-        <p><span>color:Red</span><span>Category Mobile</span></p>
-        <p>A product search UI</p>
+        <h6>{{item.name}}</h6>
+        <p><b>Price:{{item.price}}</b></p>
+        <p><span>Color:{{item.color}}</span><span>Category: {{item.category}}</span></p>
+        <p>{{item.description}}</p>
 
     </div>
 </div>
