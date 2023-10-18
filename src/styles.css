@@ -3,7 +3,6 @@
 }
 
 .common-form {
-    text-align: center;
     display: flex;
     margin: auto;
     flex-direction: column;

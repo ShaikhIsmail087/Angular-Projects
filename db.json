@@ -167,5 +167,25 @@
       "image": "https://m.media-amazon.com/images/I/51WEXftXxiL._SY679_.jpg",
       "id": 9
     }
+  ],
+  "users": [
+    {
+      "name": "ismail",
+      "email": "ismail@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "Peter@user.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "K",
+      "email": "K@user.com",
+      "password": "1234",
+      "id": 3
+    }
   ]
 }
