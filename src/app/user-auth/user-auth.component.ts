@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { SignUp } from '../data-type';
 import { UserService } from '../services/user.service';
 
@@ -10,6 +10,10 @@ import { UserService } from '../services/user.service';
 export class UserAuthComponent {
 
   constructor(private user:UserService) { }
+
+  ngOnInit():void {
+    this.user.userAuthReload();
+  }
 
   signUp(data:SignUp){
     this.user.userSignUp(data);

@@ -18,14 +18,15 @@
     padding: 0;
 }
 
-.nav li{    
+.nav ul li{    
     padding-left: 15px;
     padding-top: 15px;
 }
 
-.nav li a{
+.nav ul a{
     text-decoration: none;
     color: blueviolet;
+    cursor: pointer;
 }
 
 .nav .nav-search {

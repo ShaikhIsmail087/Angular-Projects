@@ -1,5 +1,8 @@
 .sign-up, .login{
     text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    color: blueviolet;
 } 
 
 .sign-up h1, .login h1{

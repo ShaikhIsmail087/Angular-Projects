@@ -176,14 +176,14 @@
       "id": 1
     },
     {
-      "name": "peter",
-      "email": "Peter@user.com",
-      "password": "1234",
+      "name": "ismail shaikh",
+      "email": "ismail@test.com",
+      "password": "qwerty",
       "id": 2
     },
     {
-      "name": "K",
-      "email": "K@user.com",
+      "name": "peter",
+      "email": "Peter@user.com",
       "password": "1234",
       "id": 3
     }
