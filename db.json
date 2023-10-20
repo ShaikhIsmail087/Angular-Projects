@@ -186,6 +186,18 @@
       "email": "Peter@user.com",
       "password": "1234",
       "id": 3
+    },
+    {
+      "name": "Tushar",
+      "email": "tushar@user.com",
+      "password": "qwerty",
+      "id": 4
+    },
+    {
+      "name": "ismail",
+      "email": "ismail@gmail.com",
+      "password": "12345",
+      "id": 5
     }
   ]
 }
