@@ -13,9 +13,9 @@ export class UserAuthComponent {
 
   constructor(private user:UserService) { }
 
-  ngOnInit():void {
-    this.user.userAuthReload();
-  }
+  // ngOnInit():void {
+  //   this.user.userAuthReload();
+  // }
 
   signUp(data:SignUp){
     this.user.userSignUp(data);
@@ -23,7 +23,7 @@ export class UserAuthComponent {
   }
 
   login(data:login){
-    console.warn(data);
+    this.user.userLogin(data);
     
   }
 
