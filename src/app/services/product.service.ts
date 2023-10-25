@@ -42,4 +42,17 @@ export class ProductService {
     return this.http.get<product[]>(`http://localhost:3000/products?q=${query}`);
   }
 
+  localAddToCart(data:product){
+    let cartData=[];
+    let localCart= localStorage.getItem('localCart');
+    if(!localCart){
+      localStorage.setItem('localCart',JSON.stringify([data]));
+    }
+    else{
+      cartData=JSON.parse(localCart)
+      cartData.push(data);
+      localStorage.setItem('localCart',JSON.stringify([data]));
+    }
+  }
+
 }
