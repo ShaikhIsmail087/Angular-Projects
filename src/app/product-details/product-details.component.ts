@@ -13,6 +13,7 @@ export class ProductDetailsComponent implements OnInit{
   productData:undefined | product;
   productQuantity:number=1;
   quantity:number=1;
+  removeCart=false;
 
   constructor(private activeRoute:ActivatedRoute,private product:ProductService){}
 
@@ -22,7 +23,17 @@ export class ProductDetailsComponent implements OnInit{
     productId && this.product.getProduct(productId).subscribe((result)=>{
       console.warn(result);
       this.productData=result;
-    })
+    let cartData=localStorage.getItem('localCart');
+    if(productId && cartData){
+      let items=JSON.parse(cartData);
+      items=items.filter((item:product)=>productId== item.id.toString());
+      if(items.length){
+        this.removeCart=true;
+      }else{
+        this.removeCart=false;
+      }
+    }
+    });
   }
 
   handleQuantity(val:string){
@@ -39,8 +50,14 @@ export class ProductDetailsComponent implements OnInit{
       if(!localStorage.getItem('user')){
         console.warn(this.productData);
         this.product.localAddToCart(this.productData);
+        this.removeCart=true;
       }
     }
+  }
+
+  removeToCart(productId:number){
+    this.product.removeItemFromCart(productId);
+    this.removeCart=false;
   }
 
 }
