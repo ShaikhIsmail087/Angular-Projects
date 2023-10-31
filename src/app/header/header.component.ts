@@ -31,6 +31,7 @@ export class HeaderComponent {
           let userData = userStore && JSON.parse(userStore);
           this.userName = userData.name;
           this.menuType = 'user';
+          this.product.getCartList(userData.id);
         }
         else {
           // console.warn("outside seller");

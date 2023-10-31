@@ -274,15 +274,15 @@
       "id": 6
     },
     {
-      "name": "BRUTON Trendy Sports Shoes",
-      "price": "5000",
-      "color": "Blue",
-      "category": "Shoe",
-      "description": "Shoe product",
-      "image": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(600,750)",
+      "name": "I phone 14",
+      "price": "100000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "iphone product",
+      "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
       "quantity": 1,
       "userId": 1,
-      "productId": 4,
+      "productId": 2,
       "id": 7
     }
   ]
