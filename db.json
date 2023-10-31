@@ -285,5 +285,15 @@
       "productId": 9,
       "id": 9
     }
+  ],
+  "orders": [
+    {
+      "email": "ismail@user.com",
+      "address": "mumbai",
+      "contact": "876785821",
+      "totalPrice": 245200,
+      "userId": 1,
+      "id": 1
+    }
   ]
 }
