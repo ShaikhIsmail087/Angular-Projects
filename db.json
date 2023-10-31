@@ -250,18 +250,6 @@
       "id": 4
     },
     {
-      "name": "beatXP Marv Neo 1.85",
-      "price": "4000",
-      "color": "Black",
-      "category": "Smart Watch",
-      "description": "(4.6 cm) Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging",
-      "image": "https://m.media-amazon.com/images/I/51WEXftXxiL._SY679_.jpg",
-      "quantity": 1,
-      "userId": 1,
-      "productId": 9,
-      "id": 5
-    },
-    {
       "name": "BRUTON Trendy Sports Shoes",
       "price": "5000",
       "color": "Blue",
@@ -274,16 +262,28 @@
       "id": 6
     },
     {
-      "name": "I phone 14",
-      "price": "100000",
+      "name": "Samsung m 40",
+      "price": "55100",
       "color": "Black",
       "category": "Mobile",
-      "description": "iphone product",
-      "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
+      "description": "a samsung product",
+      "image": "https://5.imimg.com/data5/ZX/BF/BS/SELLER-75987892/samsung-galaxy-m40-500x500.png",
       "quantity": 1,
       "userId": 1,
-      "productId": 2,
-      "id": 7
+      "productId": 1,
+      "id": 8
+    },
+    {
+      "name": "beatXP Marv Neo 1.85",
+      "price": "4000",
+      "color": "Black",
+      "category": "Smart Watch",
+      "description": "(4.6 cm) Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging",
+      "image": "https://m.media-amazon.com/images/I/51WEXftXxiL._SY679_.jpg",
+      "quantity": 10,
+      "userId": 1,
+      "productId": 9,
+      "id": 9
     }
   ]
 }
