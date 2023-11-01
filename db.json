@@ -202,106 +202,26 @@
   ],
   "cart": [
     {
-      "name": "Apple Laptop",
+      "name": "I phone 14",
       "price": "100000",
-      "color": "Gray",
-      "category": "Laptop",
-      "description": "Laptop Product",
-      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "iphone product",
+      "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
       "quantity": 1,
-      "userId": 1,
-      "productId": 5,
+      "userId": 5,
+      "productId": 2,
       "id": 1
-    },
-    {
-      "name": "Realme narzo 60x 5g",
-      "price": "15000",
-      "color": "Nebula purple",
-      "category": "Mobile",
-      "description": "realme ui product",
-      "image": "https://m.media-amazon.com/images/I/818UhQ1kpdL._SX679_.jpg",
-      "quantity": 3,
-      "userId": 1,
-      "productId": 7,
-      "id": 2
-    },
-    {
-      "name": "I phone 14",
-      "price": "100000",
-      "color": "Black",
-      "category": "Mobile",
-      "description": "iphone product",
-      "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
-      "quantity": 1,
-      "userId": 5,
-      "productId": 2,
-      "id": 3
-    },
-    {
-      "name": "I phone 14",
-      "price": "100000",
-      "color": "Black",
-      "category": "Mobile",
-      "description": "iphone product",
-      "image": "https://images.unsplash.com/photo-1606041011872-596597976b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1889&q=80",
-      "quantity": 1,
-      "userId": 5,
-      "productId": 2,
-      "id": 4
-    },
-    {
-      "name": "BRUTON Trendy Sports Shoes",
-      "price": "5000",
-      "color": "Blue",
-      "category": "Shoe",
-      "description": "Shoe product",
-      "image": "https://www.jiomart.com/images/product/original/rvrgwpjvsp/bruton-trendy-sports-shoes-for-men-blue-product-images-rvrgwpjvsp-0-202209021256.jpg?im=Resize=(600,750)",
-      "quantity": 1,
-      "userId": 1,
-      "productId": 4,
-      "id": 6
-    },
-    {
-      "name": "Samsung m 40",
-      "price": "55100",
-      "color": "Black",
-      "category": "Mobile",
-      "description": "a samsung product",
-      "image": "https://5.imimg.com/data5/ZX/BF/BS/SELLER-75987892/samsung-galaxy-m40-500x500.png",
-      "quantity": 1,
-      "userId": 1,
-      "productId": 1,
-      "id": 8
-    },
-    {
-      "name": "beatXP Marv Neo 1.85",
-      "price": "4000",
-      "color": "Black",
-      "category": "Smart Watch",
-      "description": "(4.6 cm) Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging",
-      "image": "https://m.media-amazon.com/images/I/51WEXftXxiL._SY679_.jpg",
-      "quantity": 10,
-      "userId": 1,
-      "productId": 9,
-      "id": 9
     }
   ],
   "orders": [
     {
       "email": "ismail@user.com",
       "address": "mumbai",
-      "contact": "876785821",
-      "totalPrice": 245200,
-      "userId": 1,
-      "id": 1
-    },
-    {
-      "email": "ismail@user.com",
-      "address": "mumbai",
       "contact": "7304026985",
       "totalPrice": 245200,
       "userId": 1,
-      "id": 2
+      "id": 1
     }
   ]
 }

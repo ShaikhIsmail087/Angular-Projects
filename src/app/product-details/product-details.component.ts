@@ -20,7 +20,7 @@ export class ProductDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     let productId = this.activeRoute.snapshot.paramMap.get('productId');
-    console.warn(productId);
+    // console.warn(productId);
     productId && this.product.getProduct(productId).subscribe((result) => {
       console.warn(result);
       this.productData = result;
@@ -87,11 +87,12 @@ export class ProductDetailsComponent implements OnInit {
     if (!localStorage.getItem('user')) {
       this.product.removeItemFromCart(productId);
     } else {
-      let user = localStorage.getItem('user');
-      let userId = user && JSON.parse(user).id;
-      console.warn(this.cartData);
+
+      console.warn("cartDaata",this.cartData);
       this.cartData && this.product.removeToCart(this.cartData.id).subscribe((result) => {
         if (result) {
+          let user = localStorage.getItem('user');
+          let userId = user && JSON.parse(user).id;
           this.product.getCartList(userId);
         }
       })
