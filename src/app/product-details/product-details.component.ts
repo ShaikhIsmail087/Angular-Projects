@@ -88,7 +88,7 @@ export class ProductDetailsComponent implements OnInit {
       this.product.removeItemFromCart(productId);
     } else {
 
-      console.warn("cartDaata",this.cartData);
+      // console.warn("cartDaata",this.cartData);
       this.cartData && this.product.removeToCart(this.cartData.id).subscribe((result) => {
         if (result) {
           let user = localStorage.getItem('user');
