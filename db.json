@@ -89,7 +89,7 @@
     {
       "name": "Samsung m 40",
       "price": "55100",
-      "color": "Black",
+      "color": "Blue",
       "category": "Mobile",
       "description": "a samsung product",
       "image": "https://5.imimg.com/data5/ZX/BF/BS/SELLER-75987892/samsung-galaxy-m40-500x500.png",
@@ -212,6 +212,30 @@
       "userId": 5,
       "productId": 2,
       "id": 1
+    },
+    {
+      "name": "Realme narzo 60x 5g",
+      "price": "15000",
+      "color": "Nebula purple",
+      "category": "Mobile",
+      "description": "realme ui product",
+      "image": "https://m.media-amazon.com/images/I/818UhQ1kpdL._SX679_.jpg",
+      "quantity": 3,
+      "userId": 6,
+      "productId": 7,
+      "id": 2
+    },
+    {
+      "name": "beatXP Marv Neo 1.85",
+      "price": "4000",
+      "color": "Black",
+      "category": "Smart Watch",
+      "description": "(4.6 cm) Display, Bluetooth Calling Smart Watch, Smart AI Voice Assistant, 100+ Sports Modes, Heart & SpO2 Monitoring, IP68, Fast Charging",
+      "image": "https://m.media-amazon.com/images/I/51WEXftXxiL._SY679_.jpg",
+      "quantity": 2,
+      "userId": 6,
+      "productId": 9,
+      "id": 3
     }
   ],
   "orders": [
